@@ -4,7 +4,6 @@ import { nanoid } from 'nanoid';
 
 // Розкоментуй і запиши значення
 const contactPath = path.resolve('db', 'contacts.json');
-console.log(contactPath);
 
 async function listContacts() {
   // ...твій код. Повертає масив контактів.
